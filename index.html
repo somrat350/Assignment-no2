@@ -17,7 +17,29 @@
 <body>
   <!-- Header -->
   <header>
-    
+    <!-- Navbar -->
+    <nav class="container mx-auto p-5 flex items-center justify-between">
+      <a href="">
+        <img class="w-16 lg:w-28" src="assets/logo.png" alt="" />
+      </a>
+
+      <ul class="hidden md:flex items-center gap-12 text-lg lg:text-2xl">
+        <li><a href="" class="font-bold hover:border-b-2 transition-colors">Home</a></li>
+        <li><a href="#shop" class="text-slate-400 hover:border-b-2 hover:text-black transition-colors">Shop</a></li>
+        <li><a href="#footer" class="text-slate-400 hover:border-b-2 hover:text-black transition-colors">About us </a></li>
+        <li>
+          <a href="" class="flex items-center gap-3">
+            <i class="bx bx-cart text-2xl"></i>
+            <span>Cart ($56)</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="flex md:hidden items-center gap-2 text-base lg:text-xl">
+        <i class="bx bx-cart"></i>
+        <span>Cart ($56)</span>
+      </div>
+    </nav>
   </header>
 
   <!-- Main content -->
